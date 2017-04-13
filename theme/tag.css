@@ -1,0 +1,302 @@
+@charset "UTF-8";
+:root{
+    /* Transition
+  -------------------------- */
+    /* Colors
+  -------------------------- */
+    /* Link
+  -------------------------- */
+    /* Border
+  -------------------------- */
+    /* Box-shadow
+  -------------------------- */
+    /* Fill
+  -------------------------- */
+    /* Font
+  -------------------------- */
+    /* Size
+  -------------------------- */
+    /* z-index
+  -------------------------- */
+    /* Disable base
+  -------------------------- */
+    /* Icon
+  -------------------------- */
+    /* Checkbox
+  -------------------------- */
+    /* Radio
+  -------------------------- */
+    /* Select
+  -------------------------- */
+    /* Alert
+  -------------------------- */
+    /* Message Box
+  -------------------------- */
+    /* Message
+  -------------------------- */
+    /* Notification
+  -------------------------- */
+    /* Input
+  -------------------------- */
+    /* Cascader
+  -------------------------- */
+    /* Group
+  -------------------------- */
+    /* Tab
+  -------------------------- */
+    /* Button
+  -------------------------- */
+    /* cascader
+  -------------------------- */
+    /* Switch
+ -------------------------- */
+    /* Dialog
+ -------------------------- */
+    /* Table
+ -------------------------- */
+    /* Pagination
+ -------------------------- */
+    /* Popover
+ -------------------------- */
+    /* Tooltip
+  -------------------------- */
+    /* Tag
+  -------------------------- */
+    /* Dropdown
+  -------------------------- */
+    /* Badge
+  -------------------------- */
+    /* Card
+  --------------------------*/
+    /* Slider
+  --------------------------*/
+    /* Steps
+  --------------------------*/
+    /* Menu
+  --------------------------*/
+    /* Rate
+  --------------------------*/
+    /* DatePicker
+  --------------------------*/
+    /* Loading
+  --------------------------*/
+    /* Scrollbar
+  --------------------------*/
+    /* Carousel
+  --------------------------*/
+    /* Collapse
+  --------------------------*/
+}
+
+.el-tag{
+    background-color: rgb(131, 150, 165);
+    display: inline-block;
+    padding: 0 5px;
+    height: 24px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    white-space: nowrap
+}
+
+.el-tag .el-icon-close{
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    transform: scale(.75, .75);
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    vertical-align: middle;
+    top: -1px;
+    right: -2px
+}
+
+.el-tag .el-icon-close:hover{
+    background-color: #fff;
+    color: rgb(131, 150, 165)
+}
+
+.el-tag--gray{
+    background-color: rgb(228, 234, 241);
+    border-color: transparent;
+    color: #555
+}
+
+.el-tag--gray .el-tag__close:hover{
+    background-color: #555;
+    color: #fff
+}
+
+.el-tag--gray.is-hit{
+    border-color: #555
+}
+
+.el-tag--primary{
+    background-color: rgba(4, 166, 233, 0.1);
+    border-color: transparent;
+    color: #04a6e9
+}
+
+.el-tag--primary .el-tag__close:hover{
+    background-color: #04a6e9;
+    color: #fff
+}
+
+.el-tag--primary.is-hit{
+    border-color: #04a6e9
+}
+
+.el-tag--success{
+    background-color: rgba(18,206,102,0.10);
+    border-color: transparent;
+    color: #13ce66
+}
+
+.el-tag--success .el-tag__close:hover{
+    background-color: #13ce66;
+    color: #fff
+}
+
+.el-tag--success.is-hit{
+    border-color: #13ce66
+}
+
+.el-tag--warning{
+    background-color: rgba(247,186,41,0.10);
+    border-color: transparent;
+    color: #f7ba2a
+}
+
+.el-tag--warning .el-tag__close:hover{
+    background-color: #f7ba2a;
+    color: #fff
+}
+
+.el-tag--warning.is-hit{
+    border-color: #f7ba2a
+}
+
+.el-tag--danger{
+    background-color: rgba(255,73,73,0.10);
+    border-color: transparent;
+    color: #ff4949
+}
+
+.el-tag--danger .el-tag__close:hover{
+    background-color: #ff4949;
+    color: #fff
+}
+
+.el-tag--danger.is-hit{
+    border-color: #ff4949
+}
+:root{
+    /* Transition
+  -------------------------- */
+    /* Colors
+  -------------------------- */
+    //: rgb(250, 253, 255);
+    //: rgb(72, 92, 106);
+    //: rgb(209, 221, 229);
+    /* Link
+  -------------------------- */
+    /* Border
+  -------------------------- */
+    //: rgb(191, 207, 217);
+    /* Box-shadow
+  -------------------------- */
+    /* Fill
+  -------------------------- */
+    /* Font
+  -------------------------- */
+    /* Size
+  -------------------------- */
+    /* z-index
+  -------------------------- */
+    /* Disable base
+  -------------------------- */
+    //: rgb(238, 242, 246);
+    /* Icon
+  -------------------------- */
+    /* Checkbox
+  -------------------------- */
+    //: rgb(31, 49, 61);
+    /* Radio
+  -------------------------- */
+    //: rgb(31, 49, 61);
+    /* Select
+  -------------------------- */
+    //: rgb(191, 207, 217);
+    /* Alert
+  -------------------------- */
+    /* Message Box
+  -------------------------- */
+    /* Message
+  -------------------------- */
+    /* Notification
+  -------------------------- */
+    /* Input
+  -------------------------- */
+    //: rgb(191, 207, 217);
+    //: rgb(151, 173, 190);
+    /* Cascader
+  -------------------------- */
+    /* Group
+  -------------------------- */
+    /* Tab
+  -------------------------- */
+    /* Button
+  -------------------------- */
+    /* cascader
+  -------------------------- */
+    /* Switch
+ -------------------------- */
+    //: rgb(191, 207, 217);
+    /* Dialog
+ -------------------------- */
+    /* Table
+ -------------------------- */
+    //: rgb(236, 223, 223);
+    //: rgb(238, 242, 246);
+    /* Pagination
+ -------------------------- */
+    /* Popover
+ -------------------------- */
+    /* Tooltip
+  -------------------------- */
+    /* Tag
+  -------------------------- */
+    /* Dropdown
+  -------------------------- */
+    //: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .12);
+    //: rgb(228, 234, 241);
+    //: #555
+    /* Badge
+  -------------------------- */
+    /* Card
+  --------------------------*/
+    /* Slider
+  --------------------------*/
+    /* Steps
+  --------------------------*/
+    /* Menu
+  --------------------------*/
+    /* Rate
+  --------------------------*/
+    /* DatePicker
+  --------------------------*/
+    /* Loading
+  --------------------------*/
+    /* Scrollbar
+  --------------------------*/
+    /* Carousel
+  --------------------------*/
+    /* Collapse
+  --------------------------*/
+}
